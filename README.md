@@ -29,7 +29,7 @@ This CSV files use as the only supported field separator is the comma ",". The f
  * __x__: training values of the timeseries
  * __xx__: test values of the timeseries
 
-Point values of the timeseris are store as a semicolon (";") separated list of numeric values. 
+Point values of the timeseries (for instance __x__ and __xx__) are stored as a semicolon (";") separated list of numeric values. 
 
 Some of the column names may be specified as arguments to the script.
 
