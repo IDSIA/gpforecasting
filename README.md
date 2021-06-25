@@ -1,5 +1,14 @@
 # Timeseries forcasting with gaussian processes
 
+## Pubblication
+The theoretical description of the implemented algorithm and empirical results can be found in:
+
+“Time series forecasting with Gaussian Processes needs priors"\
+Giorgio Corani, Alessio Benavoli, Marco Zaffalon\
+Accepted at ECML-PKDD 2021\
+Arxix preprint: https://arxiv.org/abs/2009.08102
+
+
 ## forgp package
 The software include a small package that builds the gaussian process and uses it to produce some predictions. The package hevily depends on GPy. 
 A convenience script can be used to run the GP over a large number of timeseries.
