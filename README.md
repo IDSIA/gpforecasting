@@ -1,6 +1,6 @@
 # Timeseries forcasting with gaussian processes
 
-## Pubblication
+## Related Publication
 The theoretical description of the algorithm implemented in this software and empirical results can be found in:
 
 “Time series forecasting with Gaussian Processes needs priors"\
