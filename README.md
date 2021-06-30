@@ -1,4 +1,4 @@
-# Timeseries forcasting with gaussian processes
+# Time series forcasting with Gaussian Processes
 
 ## Related Publication
 The theoretical description of the algorithm implemented in this software and empirical results can be found in:
