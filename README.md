@@ -76,7 +76,7 @@ conda create --name <env> --file requirements.txt
 ```
 
 ## Example execution
-The package includes a number of input files, inluding standard M1, M3 competition timeseries, a sample of the M4 competition and a short example input.
+The package includes a number of input files, inluding standard M1[[1]], M3[[2]] competition timeseries, a sample of the M4 competition and a short example input.
 To run the script on the example input one may run the following command from withing the src folder:
 
 ```sh
@@ -88,3 +88,10 @@ As hinted above you can provide priors via file:
 ```sh
 ./forecast.py --log 100 --default-priors --normalize --priors ../data/example_priors ../data/example_input example_output
 ```
+
+## References
+<a id="1">[1]</a> 
+Makridakis, S., A. Andersen, R. Carbone, R. Fildes, M. Hibon, R. Lewandowski, J. Newton, E. Parzen, and R. Winkler (1982) The accuracy of extrapolation (time series) methods: results of a forecasting competition. *Journal of Forecasting*, **1**, 111--153.
+
+<a id="2">[2]</a> 
+Makridakis and Hibon (2000) The M3-competition: results, conclusions and implications. *International Journal of Forecasting*, **16**, 451-476.
