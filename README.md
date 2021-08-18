@@ -76,7 +76,7 @@ conda create --name <env> --file requirements.txt
 ```
 
 ## Example execution
-The package includes a number of input files, inluding standard M1[[1]], M3[[2]] competition timeseries, a sample of the M4 competition and a short example input.
+The package includes a number of input files, inluding standard M1[[1]](#1), M3[[2]](#2) competition timeseries, a sample of the M4 competition and a short example input.
 To run the script on the example input one may run the following command from withing the src folder:
 
 ```sh
