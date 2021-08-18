@@ -76,7 +76,7 @@ conda create --name <env> --file requirements.txt
 ```
 
 ## Example execution
-The package includes a number of input files, inluding standard M1[[1]](#1), M3[[2]](#2) competition timeseries, a sample of the M4 competition and a short example input.
+The package includes a number of input files, inluding standard M1[[1]](#1), M3[[2]](#2) competition timeseries, a sample of the M4 competition[[3]](#3) and a short example input.
 To run the script on the example input one may run the following command from withing the src folder:
 
 ```sh
@@ -94,4 +94,7 @@ As hinted above you can provide priors via file:
 Makridakis, S., A. Andersen, R. Carbone, R. Fildes, M. Hibon, R. Lewandowski, J. Newton, E. Parzen, and R. Winkler (1982) The accuracy of extrapolation (time series) methods: results of a forecasting competition. *Journal of Forecasting*, **1**, 111--153.
 
 <a id="2">[2]</a> 
-Makridakis and Hibon (2000) The M3-competition: results, conclusions and implications. *International Journal of Forecasting*, **16**, 451-476.
+Makridakis, S. and M. Hibon (2000) The M3-competition: results, conclusions and implications. *International Journal of Forecasting*, **16**, 451-476.
+
+<a id="3">[3]</a>
+Makridakis, S., E. Spiliotis and V. Assimakopoulos (2020) The M4 Competition: 100,000 time series and 61 forecasting methods, *International Journal of Forecasting, Elsevier*, **36(1)**, pages 54-74. 
